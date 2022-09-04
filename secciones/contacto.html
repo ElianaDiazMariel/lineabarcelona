@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="https://kit.fontawesome.com/8e3afbb123.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/style.css"> 
+    <meta name="description" content=" contactanos para hacer tu pedido te esperamos">  
+    <meta name="keywords" content="Carpinteria, Madera, Hierro, Muebles, Cocina, Carpintería general, Muebles a medida">
+    <title>Linea Barcelona</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img class= "logo" src="../img/linea_barcelona_ch.png" alt="logolineabarcelona">
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="../index.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="nosotros.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        
+ 
+       
+    <section id="contact" class="container mt-5 mb-5">
+      <div class="container-fluid contactH">
+        <div class="row justify-content-sm-center">
+          <div class="col-sm-10">
+            <div class="contact_title">
+              <h2>Contacto</h2>
+              <hr>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-sm-center contactinner">
+            <div class="col-sm-5 contactInfo">
+            <div class="contactdescription">
+              Queremos recibir tus consultas y propuestas, envianos un mensaje y te responderemos a la brevedad.
+            </div>
+            <div class="contactdescription">
+              <b>Correo</b><br><a href="mailto:linea.barcelona.ok@gmail.com"><h5>linea.barcelona.ok@gmail.com</h5></a>
+            </div>
+            <div class="contactdescription">
+              <b class="wapp">whatsapp</b><br>
+              <a href="https://api.whatsapp.com/send?phone=541156259923&app=facebook&entry_point=page_cta&fbclid=IwAR1dyVM6Lk_XgG-MVgit26akedyZpwBYOR3J4u_IFsK_nGUpG9510s0jYL4" target="blank" class="fa fa-whatsapp social social_w"></a>
+              <b>+54 11 5625-9923</b>
+            </div>
+            <div class="contactdescription">
+              <b>Seguinos en nuestras redes</b><br>
+              <a class="facebook" href="https://www.facebook.com/Linea.Barcelona" class="pr-3"><i class="fa-brands fa-facebook-square"></i></a>
+              <a  href="https://www.instagram.com/linea.barcelona/"class="pr-3"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+              
+            <div>
+              <b>Ubicación</b><br>
+              Contamos con una nueva fabrica ubicada sobre Acceso Oeste la cual nos permite tener control total de la calidad de nuestros productos
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <form id="contactForm">
+            <form method="POST" action="sendemail.php" enctype="multipart/form-data">
+              <div class="form-group">
+                  <label for="InputName">Nombre</label>
+                  <input type="text" class="form-control" id="InputName" name="nameDream" aria-describedby="emailHelp" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-group">
+                  <label for="InputEmail">Email</label>
+                  <input type="email" class="form-control" id="InputEmail" name="emailDream" aria-describedby="emailHelp" placeholder="Ingrese su email">
+                </div>
+                <div class="form-group">
+                  <label for="InputPhone">Teléfono</label>
+                  <input type="number" class="form-control" id="InputPhone" name="phoneDream" placeholder="0123456789">
+                </div>
+                <div class="form-group">
+                <label for="ControlTextarea">Mensaje</label>
+                <textarea class="form-control" id="ControlTextarea" name="msjDream" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                <span class="exampleFormControlFile1">
+                  <input type="file" class="form-control-file" name="imageDream" id="exampleFormControlFile1">
+                </span>
+                <label for="exampleFormControlFile1">
+                  <i class="fa fa-paperclip dream_attach"></i>
+                  <span><label for="exampleFormControlFile1" class="dream_attachtext">Adjuntar archivo</label></span>
+                </label>
+              </div>
+              <label>
+                <input type="submit" name="submit" class="btn btn-primary btn-block contactorange" value="Enviar"><br>
+              </label>
+              </form>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    
+
+    <footer class="footer mt-auto">
+      <div class="container">
+          <div class="row">
+              <div class="d-flex justify-content-sm-center">
+                  <div class="footer-about">
+                      <div class="footer-logo">
+                          <a href="../index.html">
+                          <img src="../img/logo/linea_barcelona_ch_2.png" alt=""></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <div class="footer-copyright-text">
+                      <p>Copyright &copy; 2022 Creado<i class="fa fa-heart-o" arial-hidden="true"></i>
+                           por <a href="#">Eliana Diaz</a></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  
+  <script src="../contacto.js"></script>
+ 
+    
+</body>
+</html>
