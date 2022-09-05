@@ -32,3 +32,5 @@ formulario.onsubmit = (event) => {
     convertirAJSONYSubirAlLS("clientes", clientes) 
     console.log(clientes)
 }
+
+
